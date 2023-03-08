@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media screen and (max-width: 700px) {
+            form{
+            text-align: center;
+            /* margin-top: 100px; */
+            border: 2px solid black;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            margin-left: 100px;
+            margin-right: 100px;
+            background-color: rgb(49, 56, 70, 0.3);
+            border-radius: 10px;
+        }
+        input{
+            width: 35px;
+            height: 25px;
+        }
+        .hero{
+            width: 150px;
+            height: 30px;
+        }
+        .zero{
+            width: 80px;
+        }
+            
+            
+        }
+        
+        /* form{
+            text-align: center;
+            margin-top: 100px;
+            border: 2px solid black;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            margin-left: 500px;
+            margin-right: 500px;
+            background-color: rgb(49, 56, 70, 0.3);
+            border-radius: 10px;
+        }
+        input{
+            width: 35px;
+            height: 25px;
+        }
+        .hero{
+            width: 150px;
+            height: 30px;
+        }
+        .zero{
+            width: 80px;
+        } */
+    </style>
+</head>
+<body>
+    <form action="" name="jun">
+        <input type="text" name="disp" class="hero"><br><br>
+        <input type="reset" value="AC" onclick="jun.disp.value+='Ac'">
+        <input type="button" value="+/-" onclick="jun.disp.value+='+/-'">
+        <input type="button" value="%" onclick="jun.disp.value+='%'">
+        <input type="button" value="÷" onclick="jun.disp.value+='÷'"><br><br>
+        <input type="button" value="7" onclick="jun.disp.value+='7'">
+        <input type="button" value="8" onclick="jun.disp.value+='8'">
+        <input type="button" value="9" onclick="jun.disp.value+='9'">
+        <input type="button" value="×" onclick="jun.disp.value+='×'"><br><br>
+        <input type="button" value="4" onclick="jun.disp.value+='4'">
+        <input type="button" value="5" onclick="jun.disp.value+='5'">
+        <input type="button" value="6" onclick="jun.disp.value+='6'">
+        <input type="button" value="-" onclick="jun.disp.value+='-'"><br><br>
+        <input type="button" value="1" onclick="jun.disp.value+='1'">
+        <input type="button" value="2" onclick="jun.disp.value+='2'">
+        <input type="button" value="3" onclick="jun.disp.value+='3'">
+        <input type="button" value="+" onclick="jun.disp.value+='+'"><br><br>
+        <input type="button" value="0" onclick="jun.disp.value+='0'" class="zero">
+        <input type="button" value="." onclick="jun.disp.value+='.'">
+        <input type="button" value="=" onclick="jun.disp.value+='='">
+        <!-- <input type="button" value="+/-" onclick="jun.disp.value+='+/-'"> -->
+ 
+    
+</body>
+</html>
